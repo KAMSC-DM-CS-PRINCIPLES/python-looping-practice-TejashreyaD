@@ -3,8 +3,8 @@ def guessing_game():
     while True:
         guess = int(input("Enter your guess: "))
         if guess == target:
-            print ("Congratulations! You guessed it!")
+            return "Congratulations! You guessed it!"
         elif guess < target:
-            print(" Too low! Try again.")
+            return" Too low! Try again."
         else:
-            print("Too high! Try again.")
+            return"Too high! Try again."
