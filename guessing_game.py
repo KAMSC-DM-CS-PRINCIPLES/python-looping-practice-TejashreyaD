@@ -5,6 +5,6 @@ def guessing_game():
         if guess == target:
             return "Congratulations! You guessed it!"
         elif guess < target:
-            return" Too low! Try again."
+            print("Too low! Try again.")
         else:
-            return"Too high! Try again."
+            print("Too high! Try again.")
